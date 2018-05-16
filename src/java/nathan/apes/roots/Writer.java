@@ -45,6 +45,10 @@ public class Writer {
         } catch (IOException e) { new Printer("Error in writing data... \n" + e.getMessage()); }
     }
 
+    //Ease for Constructor Parameter
+    public static File convertStringToFile(String stringFile){ return new File(stringFile); }
+
+    //Create the file specified
     public void finalizeFile(){
         try {
             file.createNewFile();
