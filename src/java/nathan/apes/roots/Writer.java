@@ -22,7 +22,7 @@ public class Writer {
     private void write(){
         //Include whats already written
         if(startAtEnd) {
-            Grouper<String> dataAlreadyInFile = new Reader(file.getAbsolutePath()).getReadContent();
+            Grouper<String> dataAlreadyInFile = new Reader(file).getReadContent();
             dataAlreadyInFile.addAll(content);
             content.clear();
             content.addAll(dataAlreadyInFile);

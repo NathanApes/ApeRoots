@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class Grouper<T> extends ArrayList<T> {
 
     //Importing from regular
-    //NOTE: Only works with empty Grouper's!
+    //NOTE: Sets up the Grouper FROM SCRATCH
     public void importFromArray(T[] array){
         clear();
         for(T element : array)
