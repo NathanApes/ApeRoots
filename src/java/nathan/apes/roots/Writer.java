@@ -44,4 +44,12 @@ public class Writer {
             new Printer("Closed Stream. Data has been written.");
         } catch (IOException e) { new Printer("Error in writing data... \n" + e.getMessage()); }
     }
+
+    public void finalizeFile(){
+        try {
+            file.createNewFile();
+        } catch (IOException e){
+            new Printer("Error in creatng file on disk... \n" + e.getMessage());
+        }
+    }
 }
