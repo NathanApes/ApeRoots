@@ -11,8 +11,8 @@ public class Writer {
     private final boolean startAtEnd;
 
     //Setup Writer
-    public Writer(String file, Grouper<String> content, boolean startAtEnd){
-        this.file = new File(file);
+    public Writer(File file, Grouper<String> content, boolean startAtEnd){
+        this.file = file;
         this.content = content;
         this.startAtEnd = startAtEnd;
         write();
