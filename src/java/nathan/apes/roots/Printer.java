@@ -5,24 +5,34 @@ package nathan.apes.roots;
 public class Printer {
 
     private final String output;
+    private final boolean enter;
 
-    //Printer Setup
+    //Printer
     public Printer(String output){
         this.output = output;
+        this.enter = true;
         print();
     }
 
-    //Print
-    private void print(){
-        //Set logging prefix before printing output
-        String prefix = "[ApeRoots]: ";
+    //Printer with carriage return option
+    public Printer(String output, boolean noReturn){
+        this.output = output;
+        this.enter = !noReturn;
+        print();
+    }
 
-        //Output
-        if(output.contains("\n")) {
-            String[] lineBreakOutput = output.split("\n");
-            for(String line : lineBreakOutput)
-                System.out.println(prefix + line);
-        } else
-            System.out.println(prefix + output);
+    //Print function
+    private void print(){
+        //Set Prefix
+        String prefix = "[Roots]: ";
+
+        //Combine prefix and output for printing
+        String finalOutput = prefix + this.output;
+
+        //System print
+        if(enter)
+            System.out.println(finalOutput);
+        else
+            System.out.print(finalOutput);
     }
 }
