@@ -2,32 +2,78 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="ApeRoots" />
+      <artifact name="ApeRoots_v1.1.5" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4d27677-13da-4340-84c9-b77245b2da5e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ApeRoots_v1_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ApeRoots_v1_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Writer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/Writer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/out/production/Roots/nathan/apes/roots/temprun/MainTemp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/nathan/apes/roots/Grouper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/nathan/apes/roots/Grouper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/nathan/apes/roots/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/nathan/apes/roots/Writer.java" afterDir="false" />
-    </list>
+    <list default="true" id="c4d27677-13da-4340-84c9-b77245b2da5e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="617268357">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="TODO-MakeSpecialtyReaderANDWriterClasses" value="2" />
+          <entry key="class" value="1" />
+          <entry key="java" value="83" />
+          <entry key="md" value="6" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="83" />
+          <entry key="PLAIN_TEXT" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="java" value="6278" />
+          <entry key="txt" value="30" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6278" />
+          <entry key="PLAIN_TEXT" value="36" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,6 +87,7 @@
     <findStrings>
       <find>split</find>
       <find>array</find>
+      <find>mil</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -49,14 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/modifier/remover/Remover.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/modifier/adder/Adder.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/definer/execute/TestExt.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/definer/execute/Execute.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/definer/execute/PropertyExecute.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/modifier/grouper/Modifier.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/modifier/executor/ModifierExecutor.java" />
-        <option value="$PROJECT_DIR$/src/nathan/apes/roots/modifier/executor/Modifier.java" />
         <option value="$PROJECT_DIR$/src/nathan/apes/roots/grouper/modifier/Modifier.java" />
         <option value="$PROJECT_DIR$/src/nathan/apes/roots/definer/PropertyExecute.java" />
         <option value="$PROJECT_DIR$/src/nathan/apes/roots/grouper/GrouperAdder.java" />
@@ -94,20 +133,28 @@
         <option value="$PROJECT_DIR$/src/nathan/apes/roots/Writer.java" />
         <option value="$PROJECT_DIR$/src/nathan/apes/roots/Printer.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java" />
         <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/temp/test.txt" />
-        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java" />
-        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Writer.java" />
-        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Grouper.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/temp/Temp.txt" />
         <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/temp/TempRun.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/testing/TempRun.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/KeyInputter.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Inputter.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Writer.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Sleeper.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/testing/test.txt" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/ReaderGrouper.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/testing/Run.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Grouper.java" />
+        <option value="$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-38" />
-    <option name="y" value="29" />
-    <option name="width" value="1370" />
-    <option name="height" value="772" />
+    <option name="x" value="-395" />
+    <option name="y" value="44" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,6 +162,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,27 +193,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Printer.class" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15703125" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nathan\IdeaProjects\Roots\src\java" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nathan.apes.roots.modifier.properties" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nathan\IdeaProjects\PersonalDevelopment\Roots\src\nathan\apes\roots\modifier\executor" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="nathan.apes.roots.modifier.properties" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nathan\IdeaProjects\Roots\src\java\nathan\apes\roots" />
+      <recent name="C:\Users\Nathan\IdeaProjects\Roots" />
+      <recent name="C:\Users\Nathan\IdeaProjects\Roots\build" />
+      <recent name="C:\Users\Nathan\IdeaProjects\Roots\src\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,19 +230,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="RunTest" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
-      <output_file path="C:/" />
-      <option name="MAIN_CLASS_NAME" value="nathan.apes.roots.temp.TempRun" />
-      <module name="Roots" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -230,6 +267,27 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTest" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_121\jre" />
+      <output_file path="C:/" />
+      <option name="MAIN_CLASS_NAME" value="nathan.apes.roots.testing.Run" />
+      <module name="Roots" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -271,93 +329,51 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49707174" weight="0.32838285" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.329653" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329653" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.330033" />
-      <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.25948104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.20459081" />
       <window_info id="Structure" order="1" sideWeight="0.5027174" side_tool="true" weight="0.27987897" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info id="Image Layers" order="6" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329653" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972826" visible="true" weight="0.25948104" />
-      <window_info id="Structure" order="1" sideWeight="0.5027174" side_tool="true" weight="0.27987897" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info id="Designer" order="5" />
-      <window_info id="Nl-Palette" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39768976" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.330033" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.329653" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Nl-Palette" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="right" id="Properties" order="5" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49707174" weight="0.32838285" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info id="Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
+      <window_info id="Image Layers" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3967213" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49707174" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="Init Commit" />
     <MESSAGE value="Clear before Import" />
     <MESSAGE value="&quot;&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="&quot;&quot;" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="10" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/executor/auto/AutoExecutorAdder.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/executor/auto/AutoExecutorRemover.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/executor/modifier/remover/Remover.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/executor/modifier/adder/Adder.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/executor/auto/AutoExecutor.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/grouper/modifier/remover/Remover.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/identifier/Identity.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/definer/PropertyExecute.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Collection.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/grouper/modifier/Modifier.java" />
-    <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/grouper/modifier/adder/Adder.java" />
     <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/grouper/GrouperAdder.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/reflect/Type.java" />
     <entry file="file://$PROJECT_DIR$/src/nathan/apes/roots/definer/Property.java" />
@@ -381,9 +397,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java" />
     <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/temprun/MainTemp.java" />
     <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/ReaderStream.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/StringReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -426,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -454,44 +460,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java">
+    <entry file="file://$PROJECT_DIR$/../../../npwebdev/npwd/library/ApeRoots/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/temp/Temp.txt" />
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/TODO-MakeSpecialtyReaderANDWriterClasses" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="327">
+          <caret line="344" column="47" lean-forward="true" selection-start-line="344" selection-start-column="47" selection-end-line="344" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="1356" column="18" selection-start-line="1356" selection-start-column="18" selection-end-line="1356" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Printer.class" />
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/testing/test.txt" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="383" column="40" lean-forward="true" selection-start-line="383" selection-start-column="40" selection-end-line="383" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Inputter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="71" selection-start-line="69" selection-start-column="71" selection-end-line="69" selection-end-column="71" />
+        <state relative-caret-position="1112">
+          <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Sleeper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/reflect/TypeVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="47" column="2" lean-forward="true" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="703" column="28" lean-forward="true" selection-start-line="703" selection-start-column="28" selection-end-line="703" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/testing/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/temp/TempRun.java">
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/ReaderGrouper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        <state relative-caret-position="238">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/temp/Temp.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Grouper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="41">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/nathan/apes/roots/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,7 +581,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>ApeRoots_v1.0.4</last-edited>
+          <last-edited>ApeRoots_v1.1.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

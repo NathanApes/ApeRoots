@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ApeRoots_v1.1.5">
+    <output-path>$PROJECT_DIR$/out</output-path>
+    <root id="archive" name="ApeRoots_v1.1.5.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/README.md" />
+      <element id="module-output" name="Roots" />
+    </root>
+  </artifact>
+</component>

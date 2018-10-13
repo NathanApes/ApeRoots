@@ -2,20 +2,30 @@ package nathan.apes.roots;
 
 import java.io.*;
 
+import static nathan.apes.roots.Printer.print;
+import static nathan.apes.roots.Printer.printError;
+
 //Reader: Faster code for reading files
 
 public class Reader {
 
     private BufferedReader reader;
 
+    private boolean verbose;
+
+    //Default Constructor
+    public Reader(){}
+
     //Access Reader
     public Reader(File file) {
+        //Set Verbose
+        this.verbose = false;
+
         //Open the Buffered Reader
         try {
             this.reader = new BufferedReader(new FileReader(file));
-            new Printer("Opened file.");
         } catch (FileNotFoundException e){
-            new Printer("Error while setting file. Maybe a broken path? Otherwise troubleshoot.");
+            printError("Error while setting file. Maybe a broken path? Otherwise troubleshoot.");
             e.printStackTrace();
         }
     }
@@ -23,10 +33,11 @@ public class Reader {
     //Read
     public String read() {
         try {
-            new Printer("Reading...");
+            if(!verbose)
+                print("Reading...");
             return reader.readLine();
         } catch (IOException e) {
-            new Printer("Error while reading line. Troubleshooting is probably necessary.");
+            printError("Error while reading line. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
         return null;
@@ -36,9 +47,10 @@ public class Reader {
     public void close(){
         try {
             reader.close();
-            new Printer("Closed stream.");
+            if(!verbose)
+                print("Closed stream.");
         } catch (IOException e){
-            new Printer("Error in closing stream. Troubleshooting is probably necessary.");
+            printError("Error in closing stream. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
     }
@@ -48,11 +60,14 @@ public class Reader {
         try {
             return reader.ready();
         } catch (IOException e){
-            new Printer("Error in checking stream status. Troubleshooting is probably necessary.");
+            printError("Error in checking stream status. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
         return false;
     }
+
+    //Specifies SilentRunning
+    public void verbose(boolean verbose){ this.verbose = verbose; }
 
     //Ease for Constructor Parameter
     public static File fromString(String path){ return new File(path); }

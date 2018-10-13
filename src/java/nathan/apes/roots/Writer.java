@@ -4,6 +4,9 @@ import java.io.*;
 import java.nio.file.*;
 import java.nio.file.attribute.*;
 
+import static nathan.apes.roots.Printer.print;
+import static nathan.apes.roots.Printer.printError;
+
 //Writer: Faster code for writing to files
 
 public class Writer {
@@ -19,9 +22,9 @@ public class Writer {
         //Open the BufferedWriter
         try {
             writer = new BufferedWriter(new FileWriter(this.file, true));
-            new Printer("Opened file.");
+            print("Opened file.");
         } catch (IOException e){
-            new Printer("Error in setting file. Maybe a broken path? Otherwise troubleshoot.");
+            printError("Error in setting file. Maybe a broken path? Otherwise troubleshoot.");
             e.printStackTrace();
         }
     }
@@ -42,9 +45,9 @@ public class Writer {
 
             //Send data
             writer.flush();
-            new Printer("Line Written.");
+            print("Line Written.");
         } catch (IOException e) {
-            new Printer("Error in writing to file. Troubleshooting is probably necessary.");
+            printError("Error in writing to file. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
     }
@@ -53,9 +56,9 @@ public class Writer {
     public void close(){
         try {
             writer.close();
-            new Printer("Closed stream.");
+            print("Closed stream.");
         } catch (IOException e){
-            new Printer("Error in writing to file. Troubleshooting is probably necessary.");
+            printError("Error in writing to file. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
     }
@@ -67,9 +70,9 @@ public class Writer {
     public void finalizeFile(){
         try {
             file.createNewFile();
-            new Printer("Created file '" + file.getName() + "' on disk.");
+            print("Created file '" + file.getName() + "' on disk.");
         } catch (IOException e){
-            new Printer("Error in creating file on disk. Troubleshooting is probably necessary.");
+            printError("Error in creating file on disk. Troubleshooting is probably necessary.");
             e.printStackTrace();
         }
     }
